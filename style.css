@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+#gallery {
+  position: absolute; 
+  left: 40%;
+  top: 115px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Shantell Sans', cursive;
+  width: 200px;
+  height: 200px;
+}
+
+#gallery2 {
+  position: absolute; 
+  left: 44%;
+  top: 115px;
+  color: white;
+  font-size: 50px;
+  font-family: "Gill Sans", sans-serif;
+  width: 200px;
+  height: 200px;
+}
+
+.flexwrapper {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    width: 80vw;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+  }
+  
+
+  
+  
+  
+  #cards {
+    width: 70%;
+    background-image: url(cards.png);
+    background-size: contain;
+  }
+
+  #w2 {
+    background-image: url(w2.png);
+    width: 120px;
+    height: 80px;
+    position: fixed;
+    top: 100px;
+    right: 1000px;
+  }
+
+ 
+
+  #gateway {
+    background-image: url(gateway.png);
+    width: 120%;
+    height: 80%;
+    position: fixed;
+    top: 200px;
+    right: 100px;
+  }
+
+#blinkingeyes {
+      background-image: url("game.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: fixed;
+      top: 125px;
+      right: 100px;
+      
+    }
+    
+    #blinkingeyes:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+    
+#ziggy {
+      background-image: url("ziggy.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 0px;
+      right: 225px;
+      
+    }
+    
+    #ziggy:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+#clock {
+      background-image: url("clock.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 125px;
+      right: 225px;
+      
+    }
+    
+    #clock:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+#buildings {
+      background-image: url("buildings.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 125px;
+      right: 350px;
+      
+    }
+    
+    #buildings:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+    @keyframes go-man-go {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: -400% 0%;
+        }
+    }
+
+
+#muffins {
+      background-image: url("muffins.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 0px;
+      right: 100px;
+      
+    }
+    
+    #muffins:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+#octopus {
+      background-image: url("octopus.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 250px;
+      right: 225px;
+      
+    }
+    
+    #octopus:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+
+#models {
+      background-image: url("models.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 0px;
+      right: 350px;
+      
+    }
+    
+    #models:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+
+#farm {
+      background-image: url("farm.png");
+      width: 100px;
+      height: 100px;
+      background-size: 400px 100px;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: paused; 
+      position: absolute;
+      top: 250px;
+      right: 350px;
+      
+    }
+    
+    #farm:hover {
+      cursor: pointer;
+      animation: go-man-go 500ms steps(4) infinite;
+      animation-play-state: play; 
+    }
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+
+}
+
+
+
